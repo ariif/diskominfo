@@ -1,0 +1,44 @@
+CRITICAL - 2020-12-29 19:30:09 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\login_register\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\login_register\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\login_register\system\Validation\Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\login_register\system\Validation\Validation.php(325): CodeIgniter\Validation\Rules->is_unique('almi@example.co...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\login_register\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'almi@example.co...', Array, Array)
+#5 C:\xampp\htdocs\login_register\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\login_register\app\Controllers\Register.php(28): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\login_register\system\CodeIgniter.php(918): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\login_register\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\login_register\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login_register\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\login_register\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-29 19:30:56 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\login_register\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\login_register\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\login_register\system\Validation\Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\login_register\system\Validation\Validation.php(325): CodeIgniter\Validation\Rules->is_unique('almi@example.co...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\login_register\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'almi@example.co...', Array, Array)
+#5 C:\xampp\htdocs\login_register\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\login_register\app\Controllers\Register.php(28): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\login_register\system\CodeIgniter.php(918): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\login_register\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\login_register\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login_register\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\login_register\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-29 22:27:07 --> Undefined property: App\Controllers\Register::$session
+#0 C:\xampp\htdocs\login_register\app\Controllers\Register.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\login_register\system\CodeIgniter.php(918): App\Controllers\Register->save()
+#2 C:\xampp\htdocs\login_register\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\login_register\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login_register\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login_register\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-29 22:39:12 --> Array to string conversion
+#0 C:\xampp\htdocs\login_register\app\Controllers\Register.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\login_register\system\CodeIgniter.php(918): App\Controllers\Register->save()
+#2 C:\xampp\htdocs\login_register\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\login_register\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login_register\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login_register\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
